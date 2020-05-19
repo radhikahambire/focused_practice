@@ -1,0 +1,158 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testing login scenario",
+    "line": 1,
+    "id": "testing-login-scenario",
+    "tags": [],
+    "uri": "feature/login.feature",
+    "elements": [
+      {
+        "id": "testing-login-scenario;testing-login",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Testing login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Login into an application",
+            "match": {
+              "location": "stepDefinition/login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Click focused practice option",
+            "match": {
+              "location": "stepDefinition/login.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23289000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Testing quantitative page scenario",
+    "line": 1,
+    "id": "testing-quantitative-page-scenario",
+    "tags": [],
+    "uri": "feature/quantitative.feature",
+    "elements": [
+      {
+        "id": "testing-quantitative-page-scenario;testing-quantitative",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Testing quantitative",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Checking element present on quantitative page",
+            "match": {
+              "location": "stepDefinition/quantitave.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42422000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "Check Work and time page functionality",
+            "match": {
+              "location": "stepDefinition/quantitave.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "Click on back option functionality",
+            "match": {
+              "location": "stepDefinition/quantitave.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2237000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Testing verbal page functionality",
+    "line": 1,
+    "id": "testing-verbal-page-functionality",
+    "tags": [],
+    "uri": "feature/verbal.feature",
+    "elements": [
+      {
+        "id": "testing-verbal-page-functionality;verbal-functionality",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "verbal functionality",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testing login scenario",
+    "line": 1,
+    "id": "testing-login-scenario",
+    "tags": [],
+    "uri": "feature/login.feature",
+    "elements": [
+      {
+        "id": "testing-login-scenario;testing-login",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Testing login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Login into an application",
+            "match": {
+              "location": "stepDefinition/login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Click focused practice option",
+            "match": {
+              "location": "stepDefinition/login.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Click on view button of bookmarked questions",
+            "match": {
+              "location": "stepDefinition/login.js:17"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 9000000,
+              "error_message": "TypeError: verbal_que_number.split is not a function\n    at loginPage.bookmarkedquestions (/home/radhika_hambire/intellJIdea/focused-practice-automation-code/Pages/focusPracticePage.js:138:49)\n    at World.Given (/home/radhika_hambire/intellJIdea/focused-practice-automation-code/stepDefinition/login.js:18:18)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testing login scenario",
+    "line": 1,
+    "id": "testing-login-scenario",
+    "tags": [],
+    "uri": "feature/login.feature",
+    "elements": [
+      {
+        "id": "testing-login-scenario;testing-login",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Testing login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Login into an application",
+            "match": {
+              "location": "stepDefinition/login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13024000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Click focused practice option",
+            "match": {
+              "location": "stepDefinition/login.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Click on view button of bookmarked questions",
+            "match": {
+              "location": "stepDefinition/login.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26913000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Click on view button of my notes",
+            "match": {
+              "location": "stepDefinition/login.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12384000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Testing quantitative page scenario",
+    "line": 1,
+    "id": "testing-quantitative-page-scenario",
+    "tags": [],
+    "uri": "feature/quantitative.feature",
+    "elements": [
+      {
+        "id": "testing-quantitative-page-scenario;testing-quantitative",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Testing quantitative",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Checking element present on quantitative page",
+            "match": {
+              "location": "stepDefinition/quantitave.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Check data interpretation page functionality",
+            "match": {
+              "location": "stepDefinition/quantitave.js:12"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2589000000,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, app-test-header > div > div > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p)\n    at elementArrayFinder.getWebElements.then (/home/radhika_hambire/intellJIdea/focused-practice-automation-code/node_modules/protractor/built/element.js:814:27)\n    at ManagedPromise.invokeCallback_ (/home/radhika_hambire/intellJIdea/focused-practice-automation-code/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/radhika_hambire/intellJIdea/focused-practice-automation-code/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/radhika_hambire/intellJIdea/focused-practice-automation-code/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/radhika_hambire/intellJIdea/focused-practice-automation-code/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /home/radhika_hambire/intellJIdea/focused-practice-automation-code/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (/home/radhika_hambire/intellJIdea/focused-practice-automation-code/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as getText] (/home/radhika_hambire/intellJIdea/focused-practice-automation-code/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as getText] (/home/radhika_hambire/intellJIdea/focused-practice-automation-code/node_modules/protractor/built/element.js:831:22)\n    at quantitativePage.dataInterpretation (/home/radhika_hambire/intellJIdea/focused-practice-automation-code/Pages/quantitativePage.js:239:67)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testing login scenario",
+    "line": 1,
+    "id": "testing-login-scenario",
+    "tags": [],
+    "uri": "feature/login.feature",
+    "elements": [
+      {
+        "id": "testing-login-scenario;testing-login",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Testing login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Testing quantitative page scenario",
+    "line": 1,
+    "id": "testing-quantitative-page-scenario",
+    "tags": [],
+    "uri": "feature/quantitative.feature",
+    "elements": [
+      {
+        "id": "testing-quantitative-page-scenario;testing-quantitative",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Testing quantitative",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Testing verbal page functionality",
+    "line": 1,
+    "id": "testing-verbal-page-functionality",
+    "tags": [],
+    "uri": "feature/verbal.feature",
+    "elements": [
+      {
+        "id": "testing-verbal-page-functionality;verbal-functionality",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "verbal functionality",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "Check Select the Sentence Questions cards functionality1",
+            "match": {
+              "location": "stepDefinition/verbal.js:78"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 27336000000,
+              "error_message": "InvalidSelectorError: invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=81.0.4044.92)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'iauro-ThinkPad-E470', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-88-generic', java.version: '13.0.2'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (/home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/node_modules/selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/node_modules/selenium-webdriver/lib/http.js:509:13)\n    at /home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/node_modules/selenium-webdriver/lib/http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:89:5)\nFrom: Task: WebDriver.findElements(By(css selector, //span[contains(text(),'Much of the content')]))\n    at thenableWebDriverProxy.schedule (/home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.findElements (/home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/node_modules/selenium-webdriver/lib/webdriver.js:1048:19)\n    at /home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/node_modules/protractor/built/element.js:159:44\n    at ManagedPromise.invokeCallback_ (/home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at /home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/node_modules/selenium-webdriver/lib/promise.js:2927:27\n    at /home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/node_modules/selenium-webdriver/lib/promise.js:668:7"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

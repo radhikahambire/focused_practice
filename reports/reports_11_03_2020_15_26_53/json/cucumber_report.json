@@ -1,0 +1,199 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testing login scenario",
+    "line": 1,
+    "id": "testing-login-scenario",
+    "tags": [],
+    "uri": "feature/login.feature",
+    "elements": [
+      {
+        "id": "testing-login-scenario;testing-login",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Testing login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Login into an application",
+            "match": {
+              "location": "studio/focused_practice_cbt/focused-practice-automation-code/node_modules/cucumber/lib/support_code_library_builder/build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17603000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Click focused practice option",
+            "match": {
+              "location": "studio/focused_practice_cbt/focused-practice-automation-code/node_modules/cucumber/lib/support_code_library_builder/build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Click on view button of bookmarked questions",
+            "match": {
+              "location": "studio/focused_practice_cbt/focused-practice-automation-code/node_modules/cucumber/lib/support_code_library_builder/build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26961000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Click on view button of my notes",
+            "match": {
+              "location": "studio/focused_practice_cbt/focused-practice-automation-code/node_modules/cucumber/lib/support_code_library_builder/build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12300000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "studio/focused_practice_cbt/focused-practice-automation-code/node_modules/cucumber/lib/support_code_library_builder/build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Testing quantitative page scenario",
+    "line": 1,
+    "id": "testing-quantitative-page-scenario",
+    "tags": [],
+    "uri": "feature/quantitative.feature",
+    "elements": [
+      {
+        "id": "testing-quantitative-page-scenario;testing-quantitative",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Testing quantitative",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Checking element present on quantitative page",
+            "match": {
+              "location": "studio/focused_practice_cbt/focused-practice-automation-code/node_modules/cucumber/lib/support_code_library_builder/build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45735000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Check data interpretation page functionality",
+            "match": {
+              "location": "studio/focused_practice_cbt/focused-practice-automation-code/node_modules/cucumber/lib/support_code_library_builder/build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34932000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Check Equation and inequalities page functionality",
+            "match": {
+              "location": "studio/focused_practice_cbt/focused-practice-automation-code/node_modules/cucumber/lib/support_code_library_builder/build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "Click on back option functionality",
+            "match": {
+              "location": "studio/focused_practice_cbt/focused-practice-automation-code/node_modules/cucumber/lib/support_code_library_builder/build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4986000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "studio/focused_practice_cbt/focused-practice-automation-code/node_modules/cucumber/lib/support_code_library_builder/build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Testing verbal page functionality",
+    "line": 1,
+    "id": "testing-verbal-page-functionality",
+    "tags": [],
+    "uri": "feature/verbal.feature",
+    "elements": [
+      {
+        "id": "testing-verbal-page-functionality;verbal-functionality",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "verbal functionality",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "studio/focused_practice_cbt/focused-practice-automation-code/node_modules/cucumber/lib/support_code_library_builder/build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

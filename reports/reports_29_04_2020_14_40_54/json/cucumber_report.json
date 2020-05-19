@@ -1,0 +1,107 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testing login scenario",
+    "line": 1,
+    "id": "testing-login-scenario",
+    "tags": [],
+    "uri": "feature/login.feature",
+    "elements": [
+      {
+        "id": "testing-login-scenario;testing-login",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Testing login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Testing quantitative page scenario",
+    "line": 1,
+    "id": "testing-quantitative-page-scenario",
+    "tags": [],
+    "uri": "feature/quantitative.feature",
+    "elements": [
+      {
+        "id": "testing-quantitative-page-scenario;testing-quantitative",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Testing quantitative",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Check Coordinate Geometry page functionality",
+            "match": {
+              "location": "stepDefinition/quantitave.js:61"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 38000000,
+              "error_message": "TypeError: Cannot read property 'isEnabled' of undefined\n    at ElementHelperjs.waitForParticularElement (/home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/Support/ElementHelperjs.js:9:26)\n    at quantitativePage.coordinateGeometry1 (/home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/Pages/quantitativePage.js:3011:17)\n    at World.<anonymous> (/home/iauro/VSCode/rhambire-focused-practice-automation-code-c6d8443e9cf8/stepDefinition/quantitave.js:62:18)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Testing verbal page functionality",
+    "line": 1,
+    "id": "testing-verbal-page-functionality",
+    "tags": [],
+    "uri": "feature/verbal.feature",
+    "elements": [
+      {
+        "id": "testing-verbal-page-functionality;verbal-functionality",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "verbal functionality",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

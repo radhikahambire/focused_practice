@@ -1,0 +1,159 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testing login scenario",
+    "line": 1,
+    "id": "testing-login-scenario",
+    "tags": [],
+    "uri": "feature/login.feature",
+    "elements": [
+      {
+        "id": "testing-login-scenario;testing-login",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Testing login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Login into an application",
+            "match": {
+              "location": "stepDefinition/login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67796000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Click focused practice option",
+            "match": {
+              "location": "stepDefinition/login.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Click on view button of bookmarked questions",
+            "match": {
+              "location": "stepDefinition/login.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27019000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Click on view button of my notes",
+            "match": {
+              "location": "stepDefinition/login.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12445000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Testing quantitative page scenario",
+    "line": 1,
+    "id": "testing-quantitative-page-scenario",
+    "tags": [],
+    "uri": "feature/quantitative.feature",
+    "elements": [
+      {
+        "id": "testing-quantitative-page-scenario;testing-quantitative",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Testing quantitative",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Testing verbal page functionality",
+    "line": 1,
+    "id": "testing-verbal-page-functionality",
+    "tags": [],
+    "uri": "feature/verbal.feature",
+    "elements": [
+      {
+        "id": "testing-verbal-page-functionality;verbal-functionality",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "verbal functionality",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Check Answered Question-Type Specific Detail Questions tags functionality",
+            "match": {
+              "location": "stepDefinition/verbal.js:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 7348000000,
+              "error_message": "ReferenceError: attemptBtn is not defined\n    at VerbalPage.answeredquestion (/home/radhika_hambire/intellJIdea/focused-practice-automation-code/Pages/verbalPage.js:89:28)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
