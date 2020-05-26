@@ -16,7 +16,7 @@ exports.config = {
         chromeOptions: {
             args: [
                 // disable chrome's infobar
-                '--disable-infobars',
+                '--disable-infobars', '--headless',
                 '--no-sandbox' // Chrome won't be able to startup. then this option is used
             ]
         }
