@@ -2,7 +2,7 @@
 var Reporter = require("../Support/reporter");
 //To generate report based on time and date
 const moment = require("moment");
-var htmlReports= "reports_" + moment().format("DD_MM_YYYY_HH_mm_ss");
+var htmlReports= "reports_" + moment().format("DD_MM_YYYY_HH_mm");
 var jsonReports = process.cwd() + "/reports/" +htmlReports + "/json";
 
 exports.config = {
