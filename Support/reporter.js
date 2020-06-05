@@ -10,7 +10,7 @@ const cucumberReporterOptions = {
     theme : "bootstrap",
     name : "Focused Practice Report"
     jsonFile : targetJson,
-    output : htmlReports + "focused_practice_report.html",
+    output : htmlReports + "/focused_practice_report.html",
     reportSuiteAsScenarios : true
 }
 
