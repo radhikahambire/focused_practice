@@ -24,7 +24,7 @@ Feature: Testing verbal page functionality
         #Given Single Highlighted Portion - Function Questions cards functionality1
         #Given Check Select the Sentence Questions cards functionality1
         #Given Verbal Page Functionality
-        Given Verbal exit functionality
+        #Given Verbal exit functionality
 
 
 
