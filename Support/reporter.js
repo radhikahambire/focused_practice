@@ -4,12 +4,12 @@ const reporter = require("cucumber-html-reporter");
 const moment = require("moment");
 // const html= "reports_" + moment().format("DD_MM_YYYY_HH_mm");
 const htmlReports =  process.cwd() + "/reports/" + "/html";
-const targetJson = process.cwd() + "/reports/" + "/json/cucumber_report.json";
+const targetJson = process.cwd() + "/reports/" + htmlReports + "/json/cucumber_report.json";
 
 const cucumberReporterOptions = {
     theme : "bootstrap",
     jsonFile : targetJson,
-    output : "cucumber_report.html",
+    output : htmlReports + "cucumber_report.html",
     reportSuiteAsScenarios : true
 }
 
