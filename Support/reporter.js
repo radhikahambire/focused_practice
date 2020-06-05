@@ -9,7 +9,7 @@ const targetJson = process.cwd() + "/reports/" + "/json/cucumber_report.json";
 const cucumberReporterOptions = {
     theme : "bootstrap",
     jsonFile : targetJson,
-    output : htmlReports + "cucumber_report.html",
+    output : "cucumber_report.html",
     reportSuiteAsScenarios : true
 }
 
