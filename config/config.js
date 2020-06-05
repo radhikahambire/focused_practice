@@ -35,7 +35,7 @@ exports.config = {
 
     cucumberOpts:{
         strict : true,
-        format : 'json:./reports/'+ htmlReports '/json/cucumber_report.json',
+        format : 'json:./reports/'+ htmlReports +'/json/cucumber_report.json',
         require: ['../stepDefinition/*.js'],
         // format:'pretty',
         tags: false
