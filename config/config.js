@@ -2,8 +2,8 @@
 var Reporter = require("../Support/reporter");
 //To generate report based on time and date
 const moment = require("moment");
-var htmlReports= "reports_" + moment().format("DD_MM_YYYY_HH_mm");
-var jsonReports = process.cwd() + "/reports/" +htmlReports + "/json";
+// var htmlReports= "reports_" + moment().format("DD_MM_YYYY_HH_mm");
+var jsonReports = process.cwd() + "/reports/" + "/json";
 
 exports.config = {
 //     chromeDriver: "/home/iauro-qa004/Downloads/chromedriver",
