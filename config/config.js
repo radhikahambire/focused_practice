@@ -6,8 +6,8 @@ var htmlReports= "reports_" + moment().format("DD_MM_YYYY_HH_mm");
 var jsonReports = process.cwd() + "/reports/" +htmlReports + "/json";
 
 exports.config = {
-    chromeDriver: "/home/iauro-qa004/Downloads/chromedriver",
-    seleniumAddress: 'http://localhost:4444/wd/hub',
+//     chromeDriver: "/home/iauro-qa004/Downloads/chromedriver",
+//     seleniumAddress: 'http://localhost:4444/wd/hub',
     specs: ["../feature/*.feature"],
 
     baseUrl: 'http://www.way2automation.com/angularjs-protractor/registeration/#/login',
