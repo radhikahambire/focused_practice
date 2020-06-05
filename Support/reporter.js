@@ -8,7 +8,7 @@ const targetJson = process.cwd() + "/reports/" + html + "/json/cucumber_report.j
 
 const cucumberReporterOptions = {
     theme : "bootstrap",
-    name : "Focused Practice Report"
+    name : "Focused Practice Report",
     jsonFile : targetJson,
     output : htmlReports + "focused_practice_report.html",
     reportSuiteAsScenarios : true
