@@ -2,7 +2,7 @@ const fs = require("fs");
 const mkdirp = require("mkdirp");
 const reporter = require("cucumber-html-reporter");
 const moment = require("moment");
-const html= "reports_" + moment().format("DD_MM_YYYY_HH_mm_ss");
+const html= "reports_" + moment().format("DD_MM_YYYY_HH_mm");
 const htmlReports =  process.cwd() + "/reports/" + html + "/html";
 const targetJson = process.cwd() + "/reports/" + html + "/json/cucumber_report.json";
 
