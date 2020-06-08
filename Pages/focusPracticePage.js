@@ -60,7 +60,7 @@ class loginPage {
             return text;
         });
         console.log(dashboard_text);
-        return expect(dashboard_text).equal('Dashboard');        
+        return expect(dashboard_text).equal('Dashboar');        
     }
     async focusedpractice(){
         support.waitForParticularElement(3000, this.focuspractice);
