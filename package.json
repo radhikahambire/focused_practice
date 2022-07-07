@@ -19,7 +19,7 @@
     "cucumber": "^5.1.0",
     "cucumber-html-report": "^0.6.5",
     "cucumber-html-reporter": "^4.0.4",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "multiple-cucumber-html-reporter": "^1.11.6",
     "protractor": "^5.4.4",
     "protractor-cucumber-framework": "^6.2.1"
